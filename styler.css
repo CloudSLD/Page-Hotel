@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300&family=Montserrat&family=Noto+Sans:wght@400;700&family=Poppins:wght@300;600&family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.imgTop{
+    display: block;
+    width:1902px;
+    height: 600px;
+}
+
+.logo{
+    width: 100px;
+}
+
+
+.guia{
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    box-sizing: border-box;
+    top: 100px;
+    left: 500px;
+    width: 1000px;
+    height: 80px;
+    align-items: center;
+    background-color: #bcbfc2;
+}
+
+.link{
+    text-decoration: none;
+    border: 1px solid red;
+    width: 140px;
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+    background-color:  #de3163;
+    color: white;
+    box-shadow: 2px 2px 2px #000;
+    border: none;
+    transition: transform 200ms ease-in-out;
+}
+.link:hover{
+    transform: scale(1.1);
+}
+.link:active{
+    background-color: coral;
+}
+
+.info{
+    
+    box-sizing: border-box;
+    width: 1900;
+    height: 150px;
+    background-color:	#91a3b0;
+}
+
+.infoI{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content:space-evenly;
+    
+}
+.infoI > img{
+    width: 100px;
+}
+
+.room{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 1;
+}
+
+.img2{
+    height: 450px;
+
+}
+
+
+.textRoom{
+    background-color: #91a3b0;
+    height: 80px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+.olho{
+    box-sizing: border-box;
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 1720px;
+   background-color: #de3163;
+   cursor: pointer;
+}
+
+.textRoom2{
+    background-color:#91a3b0;
+    height: 80px;
+    width: 720px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.olho2{
+    box-sizing: border-box;
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 827px;
+    background-color: #de3163;
+    cursor: pointer;
+}
+
+
+
+.rooms{
+    display: flex;
+    margin: 160px;
+    height: 220px;
+    justify-content: space-around;
+   
+    
+    
+    
+}
+
+
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    
+    
+
+   
+}
+.box1{
+    box-sizing: border-box;
+    position: absolute;
+    
+    left: 230px;
+    top: 1659px;
+    height: 80px;
+    width: 350px;
+    background-color: white;
+    
+}
+
+.box2{
+    box-sizing: border-box;
+    position: absolute;
+    left: 810px;
+    top: 1659px;
+    height: 80px;
+    background-color: white;
+}
+
+.box3{
+    box-sizing: border-box;
+    position: absolute;
+    left: 1315px;
+    top: 1659px;
+    height: 80px;
+    width: 290px;
+    background-color: white;
+}
+
+.img1{
+    box-sizing: border-box;
+    position: absolute;
+    height: 79px;
+    width: 80px;
+    left: 348px;
+    bottom: 1px;
+    background-color:  #de3163;
+    cursor: pointer;
+}
+
+.img02{
+    box-sizing: border-box;
+    position: absolute;
+    height: 80px;
+    width: 71px;
+    left: 283px;
+    bottom:2px;
+    top: 2px; 
+    background-color:  #de3163;
+    cursor: pointer;
+}
+
+
+.img3{
+    box-sizing: border-box;
+    position: absolute;
+    height: 80px;
+    width: 71px;
+    left: 287px;
+    bottom:-1px;
+    background-color:  #de3163;
+    cursor: pointer;
+}
+
+.color{
+    background-color: #91a3b0;
+}
+
+
+
+
+.logs{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 30px;
+    
+}
+.log{
+    width: 100px;
+}
+
+.serv{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: #de3163;
+}
+
+
+.special{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 20px;
+    color:  #de3163;
+}
+
+.offers{
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 500px;
+    
+    
+}
+.aaa{
+    background-color: #91a3b0;
+}
+
+.off{
+    width: 500px;
+}
+
+
+
+
+.feuter{
+    display:flex;
+    height: 150px;
+    justify-content:space-around;
+    text-align: center;
+    align-items: center;
+    background-color:  #de3163;
+    
+
+}
+
+
